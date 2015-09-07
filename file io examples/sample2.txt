@@ -1,0 +1,5 @@
+When dealing with delimited files, such as comma-delimited text files, it's more convenient to read the file line by line. The readlines method can draw in all the content and automatically parse it as an array, splitting the file contents by the line breaks.
+
+The method readline on the other hand, reads a singular line. Again, each read operation moves the file handle forward in the file. If you keep calling readline until you hit the end of the file and then call it again, you'll get an "end of file" error.
+
+
